@@ -221,6 +221,23 @@
   
 
       
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="en/" class="md-tabs__link">
+        
+  
+    
+  
+  English
+
+      </a>
+    </li>
+  
+
+      
     </ul>
   </div>
 </nav>
@@ -238,7 +255,9 @@
           
             
               
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -247,9 +266,7 @@
   
 
 
-  
-
-<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigace" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigace" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="." title="Python v ČR" class="md-nav__button md-logo" aria-label="Python v ČR" data-md-component="logo">
       
@@ -328,8 +345,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#nejblizsi-akce" class="md-nav__link">
-    Nejbližší akce
+  <a href="#akce" class="md-nav__link">
+    Akce
   </a>
   
 </li>
@@ -425,12 +442,78 @@
   
 
     
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="en/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    English
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
                 </div>
               </div>
             
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Obsah">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Obsah
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#kde-nas-najdes" class="md-nav__link">
+    Kde nás najdeš
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#akce" class="md-nav__link">
+    Akce
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#odkazy" class="md-nav__link">
+    Odkazy
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
             
           
           
@@ -448,10 +531,9 @@
   
 
 
-<h1 class="logo">
-    <img alt="Python v ČR" src="images/python-logo.svg">
-</h1>
-
+<h1 class="logo" id="_1">
+    <img alt="Python v ČR" src="images/python-logo.svg" />
+<a class="headerlink" href="#_1" title="Odkaz na tuto sekci">#</a></h1>
 <div class="lead">
 <p>Python je <strong>moderní programovací jazyk</strong>. Je <strong>univerzální</strong> – pohání weby i rakety.
 Dobře se čte a dá se velice <strong>rychle naučit</strong>. Je skvělý pro <strong>výuku</strong> programování.
@@ -474,16 +556,21 @@ Dobře se čte a dá se velice <strong>rychle naučit</strong>. Je skvělý pro 
 <li><a href="irc://irc.freenode.net/django-cs">IRC #django-cs</a></li>
 <li><a href="http://pyvec.slack.com/">Slack pro organizátory</a></li>
 </ul>
-<h2 id="nejblizsi-akce">Nejbližší akce<a class="headerlink" href="#nejblizsi-akce" title="Odkaz na tuto sekci">#</a></h2>
-<p>Mrkni <a href="akce/">sem</a>.</p>
+<h2 id="akce">Akce<a class="headerlink" href="#akce" title="Odkaz na tuto sekci">#</a></h2>
+<p><button markdown="1">
+<a href="akce/">Mrkni sem</a>
+</button></p>
 <h2 id="odkazy">Odkazy<a class="headerlink" href="#odkazy" title="Odkaz na tuto sekci">#</a></h2>
 <ul>
+<li><a href="https://pyladies.cz/">PyLadies CZ</a> - TODO</li>
 <li><a href="http://blog.python.cz/">Blog</a> - Díky blogu se <strong>dovíš o všem, co se v české Python komunitě zrovna děje</strong>. A co je nejlepší – můžeš klidně přidat svůj vlastní článek!</li>
 <li><a href="http://cz.pycon.org/">PyCon CZ</a> - Česká Python konference! Pomoz nám s přípravami, propagací, zkus si přihlásit přednášku nebo workshop, sponzoruj nás, nebo prostě jen přijď a akci si užij!</li>
-<li><a href="https://books.pyvo.cz/">Knihovna</a> -  Máme knihovničku s literaturou o Pythonu a podobných technologiích. Knihy si lze <strong>zdarma půjčit</strong> – ozvi se a přijď si knížku vyzvednout na nejbližším <a href="akce/">srazu</a>. Mimochodem, <a href="http://pythonbooks.revolunet.com/">Python Books</a> znáš, že?</li>
+<li><a href="https://books.pyvo.cz/">Knihovna</a> - Máme knihovničku s literaturou o Pythonu a podobných technologiích. Knihy si lze <strong>zdarma půjčit</strong> – ozvi se a přijď si knížku vyzvednout na nejbližším <a href="akce/">srazu</a>. Mimochodem, <a href="http://pythonbooks.revolunet.com/">Python Books</a> znáš, že?</li>
 </ul>
 
 
+
+  
 
 
 
@@ -518,7 +605,7 @@ Dobře se čte a dá se velice <strong>rychle naučit</strong>. Je skvělý pro 
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.tabs.sticky", "toc.integrate", "content.action.edit"], "search": "assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Zkop\u00edrov\u00e1no do schr\u00e1nky", "clipboard.copy": "Kop\u00edrovat do schr\u00e1nky", "search.result.more.one": "1 dal\u0161\u00ed na t\u00e9to str\u00e1nce", "search.result.more.other": "# v\u00edce na t\u00e9to str\u00e1nce", "search.result.none": "Nenalezeny \u017e\u00e1dn\u00e9 dokumenty", "search.result.one": "Nalezen\u00fd dokument: 1", "search.result.other": "Nalezen\u00e9 dokumenty: #", "search.result.placeholder": "Pi\u0161te co se m\u00e1 vyhledat", "search.result.term.missing": "Chyb\u011bj\u00edc\u00ed", "select.version": "Vyberte verzi"}}</script>
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "content.action.edit"], "search": "assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Zkop\u00edrov\u00e1no do schr\u00e1nky", "clipboard.copy": "Kop\u00edrovat do schr\u00e1nky", "search.result.more.one": "1 dal\u0161\u00ed na t\u00e9to str\u00e1nce", "search.result.more.other": "# v\u00edce na t\u00e9to str\u00e1nce", "search.result.none": "Nenalezeny \u017e\u00e1dn\u00e9 dokumenty", "search.result.one": "Nalezen\u00fd dokument: 1", "search.result.other": "Nalezen\u00e9 dokumenty: #", "search.result.placeholder": "Pi\u0161te co se m\u00e1 vyhledat", "search.result.term.missing": "Chyb\u011bj\u00edc\u00ed", "select.version": "Vyberte verzi"}}</script>
     
     
   
